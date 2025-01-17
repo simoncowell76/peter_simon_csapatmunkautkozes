@@ -1,6 +1,6 @@
 /* Általános beállítások az oldalra */
 body {
-    background-image: url('background-image.jpg'); /* Cseréld ki a képfájl nevére */
+    background-image: ('bg.png');
     background-size: cover;
     background-color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
