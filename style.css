@@ -33,7 +33,7 @@ img {
     border-radius: 15%;
     padding: 10px;
 }
-nav button {
+a {
     display: block;
     margin: 10px auto;
     padding: 10px;
@@ -45,7 +45,7 @@ nav button {
     background-color: rgb(50, 48, 48);
     cursor: pointer;
 }
-nav button:hover {
+a:hover {
     background-color: gray;
     color: white;
 }
