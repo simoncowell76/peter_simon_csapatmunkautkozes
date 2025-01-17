@@ -1,14 +1,16 @@
+/* Általános beállítások az oldalra */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    max-width: 1000px;
-    margin: auto;
-    background: url('bg.jpg') no-repeat center center fixed;
+    background-image: url('background-image.jpg'); /* Cseréld ki a képfájl nevére */
     background-size: cover;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
 }
-header h1 {
+
+/* Főcím (h1) stílusok */
+h1 {
     text-align: center;
     font-size: 50px;
     letter-spacing: 30px;
@@ -16,42 +18,57 @@ header h1 {
     margin: 0;
     padding: 20px;
 }
+
+/* Alcímek (h2) stílusok */
 h2 {
+    background-color: rgb(50, 48, 48);
+    color: white;
     padding: 20px;
     margin: 10px 0;
-    background-color: rgb(50, 48, 48);
     border-radius: 5%;
 }
+
+/* Szöveges tartalom (p) stílusok */
 p {
     text-align: justify;
     font-size: 15px;
-    font-family: "Rockwell", serif;
+    font-family: 'Rockwell', serif;
 }
+
+/* Képek formázása */
 img {
     width: 400px;
     border: 10px solid rgb(50, 48, 48);
     border-radius: 15%;
     padding: 10px;
 }
+
+/* Linkek (nav a) stílusai */
 nav a {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
+    display: inline-block;
     text-align: center;
     color: lightgray;
     text-decoration: none;
+    padding: 10px;
     border: 10px solid gray;
     border-radius: 25%;
     background-color: rgb(50, 48, 48);
-    cursor: pointer;
+    margin: 5px;
 }
-a:hover {
-    background-color: gray;
-    color: white;
+
+nav a:hover {
+    background-color: lightgray;
+    color: rgb(50, 48, 48);
 }
+
+/* Tartalom terület (content) stílusai */
 .content {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
+}
+
+/* Egyes játékdobozok (game) stílusai */
+.game {
+    margin-bottom: 20px;
 }
