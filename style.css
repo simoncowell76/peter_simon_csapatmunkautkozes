@@ -1,6 +1,6 @@
-/* Általános beállítások az oldalra */
+
 body {
-    background-image: ('bg.png');
+    background-image:url(kepek/bg.png);
     background-size: cover;
     background-color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
@@ -9,7 +9,7 @@ body {
     padding: 0;
 }
 
-/* Főcím (h1) stílusok */
+
 h1 {
     text-align: center;
     font-size: 50px;
@@ -19,7 +19,7 @@ h1 {
     padding: 20px;
 }
 
-/* Alcímek (h2) stílusok */
+
 h2 {
     background-color: rgb(50, 48, 48);
     color: white;
@@ -28,14 +28,14 @@ h2 {
     border-radius: 5%;
 }
 
-/* Szöveges tartalom (p) stílusok */
+
 p {
     text-align: justify;
     font-size: 15px;
     font-family: 'Rockwell', serif;
 }
 
-/* Képek formázása */
+
 img {
     width: 400px;
     border: 10px solid rgb(50, 48, 48);
@@ -43,7 +43,7 @@ img {
     padding: 10px;
 }
 
-/* Linkek (nav a) stílusai */
+
 nav a {
     display: inline-block;
     text-align: center;
